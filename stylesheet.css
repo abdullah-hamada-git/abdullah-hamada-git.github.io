@@ -1,0 +1,125 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px auto;
+    width: 950px;
+}
+h1,h2,h3{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(204, 69, 69);
+    
+}
+.coffee-list {
+list-style-image: url('images/tiny-coffee-cup.gif');
+}
+span{
+    font-weight: bold;
+    color: rgb(218, 52, 52);
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li{
+    display: inline;
+    float: left;
+}
+nav a:link,nav a:visited{
+   
+   background-color:brown;
+   color: white;
+   text-decoration: none; 
+   display: block;
+   width:158px; 
+   padding: 10px 0;
+   text-align: center;
+
+}
+nav a:hover{
+    background-color: black;
+
+}
+ 
+aside{
+    width: 280px;
+    float: right;
+    text-align: center;
+    font-weight: bold;
+    background-color:tan ;
+    padding: 20px;
+    
+    margin-left: 55px;
+}
+.photo-left{
+    float: left;
+    margin-right: 20px;
+}
+.photo-right{
+    float: right;
+    margin-left: 10px;
+}
+
+header{
+    
+    background-image: url('images/coffee-beans.jpg');
+    height: 100px;
+margin-bottom: 65px;
+
+}
+
+header h1{
+    color:rgba(256, 256, 256, 8);
+margin-left: 20px;
+margin-top: 30px;
+font-size: 50px;
+    
+}
+footer{
+    margin: 10px 0px;
+}
+footer nav a:link,footer nav a:visited{
+    width: 158px;
+    background-color: white;
+    color: gray;
+    
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+}
+footer nav a:hover{
+     background-color:black;
+}
+
+td,th{
+    width: 20%;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid black;
+}
+table{
+    border-collapse: collapse;/* instead of border-spacing  beacouse it thick some of line and another not thick them */
+
+}
+label{
+    display: block;
+     
+}
+input, select,textarea{
+    padding: 5px;
+
+} 
+.checks{
+    vertical-align: middle;
+    float: left;
+    clear: both;
+}
+video{
+    margin-left: 120px;
+    margin-bottom: 20px;
+    /*  filter: grayscale(100%);*/ /*  genetic control on the image */
+    /*  -webkit-filter: grayscale(100%); */ /* all web browsers */
+    /* -moz-filter:grayscale(100%)  */ 
+}
